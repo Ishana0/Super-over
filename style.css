@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main-container{
+    background-image: url("https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/superover-bg.png");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#logo {
+    width: 200px;
+    
+}
+ 
+.ball {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+     display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+ #overs {
+    margin: auto;
+    display: flex;
+    gap: 5px;
+    color: black;
+    /* justify-content: center; */
+} 
+
+ #team1 {
+    background-color: #1D5AA4;
+} 
+
+#team2 {
+    background-color: #4AE841;
+}
+
+
+#team-container {
+    display: flex;
+    justify-content: space-evenly;
+} 
+
+.score-card  {
+    width: 450px;
+    height: auto;
+    padding: 50px 40px;
+    border-radius: 28px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+} 
+
+ .button {
+    width: 70px;
+}  
+
+
+#button-container img:first-child {
+    margin-right: 25px;
+}
+
+.score-card h1 {
+    font-size: 80px;
+    color: white;
+} 
+
+
+ .score-board span {
+    font-size: 55px;
+    color: white;
+    font-weight: 600;
+} 
+
+.ball p {
+    font-size: 20px;
+    font-weight: 600;
+} 
+
